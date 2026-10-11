@@ -16,5 +16,9 @@ header{
 }
 main{
     background-color: white;
+    margin: 15px;
+    border: 7px solid rgb(106, 81, 197);
+    border-radius: 3px;
+    padding: 17px;
 }
 
