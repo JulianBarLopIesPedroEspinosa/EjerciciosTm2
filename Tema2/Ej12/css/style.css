@@ -21,4 +21,7 @@ main{
     border-radius: 3px;
     padding: 17px;
 }
+ul{
+    list-style: none;
+}
 
