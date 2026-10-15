@@ -5,12 +5,20 @@ for(let i = 1; i<= 300; i++){
         lista.innerHTML += "<br>"
     }
     if(i%4==0){
-        lista.innerHTML += '<span style:"'+(parseInt(getComputedStyle(lista).fontSize) + 4 ) + "px"
+        lista.innerHTML += '<span style="font-size:'+(parseInt(getComputedStyle(lista).fontSize) + 4 ) + "px" + '; '+
+        'color:green;">'
+        + i + "</span>"; 
     }
-
-
+    else if(i%9==0){
+        lista.innerHTML += '<span style="font-size:'+(parseInt(getComputedStyle(lista).fontSize) + 2 ) + "px" + '; '+
+        'color:red;">'
+        + i + "</span>"; 
+    }
+    else{
     lista.innerHTML += i 
+    }
 }
-
-Object.assign
-structuredClone
+/* Metodos para copiar cosas
+Object.assign //Este es "peor" porque no se mete dentro de todo
+obj2 = structuredClone(obj1)
+*/
